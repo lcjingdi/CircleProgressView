@@ -13,6 +13,7 @@
 		1F329B461D65EA1A00627E3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F329B441D65EA1A00627E3E /* Main.storyboard */; };
 		1F329B481D65EA1A00627E3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F329B471D65EA1A00627E3E /* Assets.xcassets */; };
 		1F329B4B1D65EA1A00627E3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F329B491D65EA1A00627E3E /* LaunchScreen.storyboard */; };
+		1F329B541D65EA3500627E3E /* EKWCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F329B531D65EA3500627E3E /* EKWCircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1F329B471D65EA1A00627E3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F329B4A1D65EA1A00627E3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F329B4C1D65EA1A00627E3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F329B521D65EA3500627E3E /* EKWCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKWCircleView.h; sourceTree = "<group>"; };
+		1F329B531D65EA3500627E3E /* EKWCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EKWCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1F329B491D65EA1A00627E3E /* LaunchScreen.storyboard */,
 				1F329B4C1D65EA1A00627E3E /* Info.plist */,
 				1F329B3B1D65EA1A00627E3E /* Supporting Files */,
+				1F329B521D65EA3500627E3E /* EKWCircleView.h */,
+				1F329B531D65EA3500627E3E /* EKWCircleView.m */,
 			);
 			path = circleDemo;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				1F329B431D65EA1A00627E3E /* ViewController.m in Sources */,
 				1F329B401D65EA1A00627E3E /* AppDelegate.m in Sources */,
+				1F329B541D65EA3500627E3E /* EKWCircleView.m in Sources */,
 				1F329B3D1D65EA1A00627E3E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

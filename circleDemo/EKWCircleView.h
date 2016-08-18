@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EKWCircleView.h
 //  circleDemo
 //
 //  Created by jingdi on 16/8/18.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@interface EKWCircleView : UIView
 
-@interface ViewController : UIViewController
-
+@property (nonatomic, assign) CGFloat progress;
 
 @end
-
