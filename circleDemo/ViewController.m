@@ -17,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
     EKWCircleView *view = [[EKWCircleView alloc] init];
     view.frame = CGRectMake(50, 50, 200, 200);
     [self.view addSubview:view];
@@ -34,12 +34,7 @@
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-//    CGFloat abc = self.circleView.progress;
-//    if (abc > 1.0) {
-//        abc = 0;
-//    } else {
-//        abc += 0.1;
-//    }
+
     self.circleView.progress = 1;
 }
 
